@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<style>
+	body{
+		background-color:#546568;
+		color:white;
+		font-size: 20px;
+	}
+	h2{
+		text-align: center;
+	}
+	form{
+		border:1px solid black;
+		border-radius: 25px;
+		padding:30px;
+		height:50%;
+		background-color: white;
+		color:black;
+		margin:70px;
+	}
+	div{
+		padding: 15px;
+	}
+	input{
+		border-radius: 7px;
+	}
+	.btn{
+		background-color: green;
+		margin-left:25%;
+	}
+</style>
+<body>
+    <h2>Simple Calculator</h2>
+    <form action="OperationServlet" method="post">
+        <div>Enter num1: <input type="text" name="num1"><br></div>
+        <div>Enter num2: <input type="text" name="num2"><br></div>
+        Select operation:
+        <select name="operation">
+            <option value="addition">Addition</option>
+            <option value="multiplication">Multiplication</option>
+        </select><br>
+        <input type="submit" value="Calculate" class="btn">
+    </form>
+</body>
+</html>
