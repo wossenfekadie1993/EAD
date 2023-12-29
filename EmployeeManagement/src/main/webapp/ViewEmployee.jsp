@@ -10,12 +10,12 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
           crossorigin="anonymous">
     <style>
-        /* Add your custom styles here */
+       
         body {
-            background-color: #f8f9fa; /* Bootstrap background color */
+            background-color: #f8f9fa;
         }
         .navbar {
-            background-color: #343a40; /* Bootstrap dark gray */
+            background-color: #343a40; 
         }
         .container {
             margin-top: 20px;
